@@ -1,7 +1,7 @@
-In the project directory, you can run:
+Para iniciar o projeto deve-se:
 
 ### `npm run dev`
-Open [http://localhost:9090](http://localhost:9090)
+Acesso as portas configuradas: [http://localhost:9090](http://localhost:9090)
 
 ### `npm install`
-
+Para instalar as dependências.
