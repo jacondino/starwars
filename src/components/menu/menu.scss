@@ -1,0 +1,72 @@
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    //grid-template-columns: 311px 162px 167px;
+    color: #444;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    padding: 60px;
+    width: 100%;
+    font-size: 150%;
+    border: 1px solid white;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 0.3;
+}
+.box:hover {
+    filter: none;
+    background-size: 25em;
+    transition: 2s;
+    opacity: 1;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.a {
+    background-image: url('../../assets/filmes.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-column: 1 / span 2;
+}
+.b {
+    background-image: url('../../assets/pessoas.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-column: 3 ;
+    grid-row: 1 / span 3;
+}
+.b:hover {
+    background-size: 60em!important;
+}
+.c {
+    background-image: url('../../assets/planetas.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-column: 1 ;
+    grid-row: 2 ;
+}
+.d {
+    background-image: url('../../assets/naves.png');
+    background-size: cover;
+    background-position: center;
+    grid-column: 2 ;
+    grid-row: 2 ;
+}
+.e {
+    background-image: url('../../assets/veiculos.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-column: 1 ;
+    grid-row: 3 ;
+}
+.f {
+    background-image: url('../../assets/especies.png');
+    background-size: cover;
+    background-position: center;
+    grid-column: 2 ;
+    grid-row: 3 ;
+}
